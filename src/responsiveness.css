@@ -1,0 +1,53 @@
+@media screen and (max-width: 901px) {
+    .main{
+        display: block;
+      }  
+
+      .formImg {
+        width: 100%; 
+      }
+
+      .formImg img {
+        width: 100%;  
+        height: 10rem;  
+        object-fit: cover; 
+
+      }  
+}
+
+@media screen and (max-width: 528px) {
+    .main{
+        display: block;
+      }  
+
+      .formImg {
+        width: 100%; 
+      }
+
+      .formImg img {
+        width: 100%;  
+        height: 50vh;  
+        object-fit: cover; 
+
+      } 
+      
+      .indicators{
+        width:70% ;
+      }
+
+      .field{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+      }
+
+      .field1{
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+
+      .field2{
+        width: 100%;
+      }
+
+}
